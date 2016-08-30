@@ -39,8 +39,8 @@ static NSString * const bannerIdentifier = @"bannerCell";
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.duration = kDefaultDuration;
-        self.pageControlBottom = kPageControlBottom;
+        _duration = kDefaultDuration;
+        _pageControlBottom = kPageControlBottom;
     }
     return self;
 }
@@ -48,8 +48,8 @@ static NSString * const bannerIdentifier = @"bannerCell";
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.duration = kDefaultDuration;
-        self.pageControlBottom = kPageControlBottom;
+        _duration = kDefaultDuration;
+        _pageControlBottom = kPageControlBottom;
     }
     return self;
 }
