@@ -1,8 +1,7 @@
 # SNBannerView
 ## 一个实用高效的bannerView，集成简单，无限滚动
 
-![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image1.png)           
-![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image2.png)
+![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image1.png)![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image2.png)
 
 ### 使用方法
 #### CocoaPods
@@ -10,15 +9,16 @@
 pod "SNBannerView"  # Podfile
 ```
 #### 示例/用法
-> delegate(optional)
+##### delegate(optional)
 ```
 - (void)bannerView:(SNBannerView *)bannerView didSelectImageIndex:(NSInteger)index;
 ```
-> block(optional)
+##### block(optional)
 ```
 @property (nonatomic, copy) SNBannerViewSelectImageBlock sn_BannerViewSelectImageBlock;
 ```
-> 使用
+
+##### 使用
 ```
 // 基于本地图片
 /*
@@ -37,6 +37,7 @@ pod "SNBannerView"  # Podfile
                   pageTintColor:(UIColor *)pageTintColor;
 
 ```
+
 ```
 //基于url
 /*
@@ -57,6 +58,7 @@ pod "SNBannerView"  # Podfile
                   pageTintColor:(UIColor *)pageTintColor;
 
 ```
+
 ```
 //基于 模型
 /*
@@ -79,6 +81,7 @@ pod "SNBannerView"  # Podfile
                   pageTintColor:(UIColor *)pageTintColor;
 
 ```
+
 ```
 //其它用法
 /*
