@@ -9,7 +9,6 @@
 #import "SNBannerView.h"
 #import "SNBannerCell.h"
 #import "UIImageView+WebCache.h"
-#import <objc/runtime.h>
 
 #define kMinImagesCount 1
 #define kDefaultDuration 2.f
