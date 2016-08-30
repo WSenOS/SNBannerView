@@ -1,7 +1,7 @@
 # SNBannerView
 ## 一个实用高效的bannerView，集成简单，无限滚动
 
-![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image1.png)![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image2.png)
+![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image1.png) ![image](https://github.com/WSenOS/SNBannerView/blob/master/image/image2.png)
 
 ### 使用方法
 #### CocoaPods
