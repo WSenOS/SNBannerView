@@ -6,7 +6,7 @@
 ### 使用方法
 #### CocoaPods
 ```
-pod "SNBannerView"  # Podfile
+pod "SNBannerView"  // Podfile
 ```
 #### 示例/用法
 ##### delegate(optional)
