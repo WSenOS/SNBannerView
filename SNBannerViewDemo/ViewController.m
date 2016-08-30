@@ -33,7 +33,7 @@
         netBannerView.networkImageURLs = URLs;
     });
     netBannerView.sn_BannerViewSelectImageBlock = ^(SNBannerView * bannerView, NSInteger index){
-        NSLog(@"%d",index);
+        NSLog(@"%zd",index);
     };
     
     //Model
@@ -52,7 +52,7 @@
 }
 
 - (void)bannerView:(SNBannerView *)bannerView didSelectImageIndex:(NSInteger)index {
-    NSLog(@"%d",index);
+    NSLog(@"%zd",index);
 }
 
 - (void)didReceiveMemoryWarning {

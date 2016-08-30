@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1A61BA1D758AED00A18B11 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A61B81D758AED00A18B11 /* image1.png */; };
+		4B1A61BB1D758AED00A18B11 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A61B91D758AED00A18B11 /* image2.png */; };
 		4BAF0BC31D73D14800364A88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF0BC21D73D14800364A88 /* main.m */; };
 		4BAF0BC61D73D14800364A88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF0BC51D73D14800364A88 /* AppDelegate.m */; };
 		4BAF0BC91D73D14800364A88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF0BC81D73D14800364A88 /* ViewController.m */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1A61B81D758AED00A18B11 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		4B1A61B91D758AED00A18B11 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		4BAF0BBE1D73D14700364A88 /* SNBannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNBannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAF0BC21D73D14800364A88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BAF0BC41D73D14800364A88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,9 +104,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B1A61B71D758AED00A18B11 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4B1A61B81D758AED00A18B11 /* image1.png */,
+				4B1A61B91D758AED00A18B11 /* image2.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		4BAF0BB51D73D14700364A88 = {
 			isa = PBXGroup;
 			children = (
+				4B1A61B71D758AED00A18B11 /* image */,
 				4BAF0BF41D73D19B00364A88 /* SNBannerView */,
 				4BAF0BC01D73D14800364A88 /* SNBannerViewDemo */,
 				4BAF0BDA1D73D14800364A88 /* SNBannerViewDemoTests */,
@@ -294,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BAF0BD11D73D14800364A88 /* LaunchScreen.storyboard in Resources */,
+				4B1A61BB1D758AED00A18B11 /* image2.png in Resources */,
+				4B1A61BA1D758AED00A18B11 /* image1.png in Resources */,
 				4BAF0BCE1D73D14800364A88 /* Assets.xcassets in Resources */,
 				4BAF0BCC1D73D14800364A88 /* Main.storyboard in Resources */,
 			);
