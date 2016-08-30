@@ -91,7 +91,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "SNBannerView/*"
-  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -132,6 +131,6 @@ Pod::Spec.new do |s|
  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "SDWebImage"
+  s.dependency "SDWebImage", ~>"3.8.1"
 
 end
